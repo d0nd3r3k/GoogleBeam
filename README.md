@@ -1,7 +1,7 @@
 GoogleBeam
 ==========
 
-Order your Raspberry Pi to capture images and upload them to your Google Drive account via Tweeting specific Hashtags. Built for the Arabnet Code and Design Day
+Order your Raspberry Pi to capture images and upload them to your Google Drive account via Tweeting specific Hashtags. Built for the Arabnet Code and Design Day - [Presentation file](http://www.slideshare.net/DonaldDerek/build-the-internet-of-things-with-raspberry-pi-31847719)
 
 ### Hastags
 
@@ -45,7 +45,7 @@ Edit the config.js file with your credentials and tokens. Keep it confidential
 
 (The MIT License)
 
-Copyright (c) 2014 Donald Derek Haddad, Kifah Daher. 
+Copyright (c) 2014 Donald Derek Haddad, Raghd Hamzeh. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
