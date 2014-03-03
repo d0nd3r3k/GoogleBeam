@@ -5,8 +5,8 @@ Order your Raspberry Pi to capture images and upload them to your Google Drive a
 
 ### Hastags
 
-. #GBeamCam : Will order the pi to capture and image and upload it to Twitter
-. #GBeamCam : Will order the pi to capture an image and upload it to Google Drive
++ #GBeamCam : Will order the pi to capture and image and upload it to Twitter
++ #GBeamCam : Will order the pi to capture an image and upload it to Google Drive
 
 ### Configuration:
 
