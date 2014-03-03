@@ -18,10 +18,8 @@ exports.shoot = function(name, save){
 	var image_name = Number(new Date()) + ".jpg";
 	var image_path = image_dir + image_name;
 
-	child = exec("raspistill -o "+ image_path +" -w 640 -h 480", function (err, stdout, stderr) {
-		if(err) console.log(stderr);
-		else {
-			tuwm.post("There you go! @"+name, image_path, function(err, response) {
+	function uploadImage(){
+		tuwm.post("There you go! @"+name, image_path, function(err, response) {
 				if (err) console.log(err);
 				else console.log(response)
 				if(save){
@@ -31,6 +29,14 @@ exports.shoot = function(name, save){
 						})
 				}
 			});
+	}
+
+	child = exec("raspistill -o "+ image_path +" -w 640 -h 480", function (err, stdout, stderr) {
+		if(err) console.log(stderr);
+		else {
+			uploadImage();
 		} 
 	});
+
+
 }

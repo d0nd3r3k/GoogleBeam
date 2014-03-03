@@ -1,7 +1,7 @@
 {
   "name": "Beam.io",
   "version": "0.0.1",
-  "description":"Controll Raspberry Pi connected Camera via Tweets and save images to Google Drive.",
+  "description":"Controll Raspberry Pi connected Camera via Tweets and upload images to Google Drive.",
   "author": {
     "name": "Donald Derek",
     "email": "donaldderek.haddad@gmail.com"
@@ -10,6 +10,10 @@
     {
       "name": "Donald Derek",
       "email": "donaldderek.haddad@gmail.com"
+    },
+    {
+      "name": "Raghd Hamzeh",
+      "email": "raghd@rhamzeh.com"
     }
   ],
   "private": false,

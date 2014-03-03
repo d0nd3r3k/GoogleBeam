@@ -1,18 +1,18 @@
 module.exports = {
 	ntwitter:{
-		consumer_key: 'rRzSslinQv3qDRHqVBPhA',
-		consumer_secret: 'udvx38IUSF0o9OCAkv7NHzdpfs9IPHYKB9T0dLWCDRA',
-		access_token_key: '2362250298-XeRMIHnfIUQAnGLgWLTzl8pptB0HNqu1WU2cYOq',
-		access_token_secret: 'Cp4TIxY8Hq6YuMPlhtefbXpVygmUI4oDtqjzjV0A2kXaw'
+		consumer_key: 'YOUR_CONSUMER_KEY',
+		consumer_secret: 'YOUR_CONSUMER_SECRET',
+		access_token_key: 'ACCESS_TOKEN',
+		access_token_secret: 'ACCESS_TOKEN_SECRET'
 	},
 	tumw:{
-		consumer_key: 'rRzSslinQv3qDRHqVBPhA',
-		consumer_secret: 'udvx38IUSF0o9OCAkv7NHzdpfs9IPHYKB9T0dLWCDRA',
-		token: '2362250298-XeRMIHnfIUQAnGLgWLTzl8pptB0HNqu1WU2cYOq',
-		token_secret: 'Cp4TIxY8Hq6YuMPlhtefbXpVygmUI4oDtqjzjV0A2kXaw'
+		consumer_key: 'YOUR_CONSUMER_KEY',
+		consumer_secret: 'YOUR_CONSUMER_SECRET',
+		token: 'ACCESS_TOKEN',
+		token_secret: 'ACCESS_TOKEN_SECRET'
 	},
 	drive:{
-		username: 'you_username_here',
-		password: 'your_password_here'
+		username: 'YOU_USERNAME',
+		password: 'YOUR_PASSWORD'
 	}
 }
