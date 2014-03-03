@@ -1,0 +1,37 @@
+{
+  "name": "Beam.io",
+  "version": "0.0.1",
+  "description":"Controll Raspberry Pi connected Camera via Tweets and save images to Google Drive.",
+  "author": {
+    "name": "Donald Derek",
+    "email": "donaldderek.haddad@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Donald Derek",
+      "email": "donaldderek.haddad@gmail.com"
+    }
+  ],
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "RaspberryPi",
+    "RaspberryPi Camera",
+    "rPi",
+    "Twitter Bot",
+    "Remote Cam",
+    "Google Drive"
+  ],
+  "dependencies": {
+    "request":"*",
+    "ntwitter":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DonaldDerek/GoogleBeam"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
