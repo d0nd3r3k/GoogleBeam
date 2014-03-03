@@ -1,5 +1,5 @@
 {
-  "name": "Beam.io",
+  "name": "googlebeam",
   "version": "0.0.1",
   "description":"Controll Raspberry Pi connected Camera via Tweets and upload images to Google Drive.",
   "author": {
